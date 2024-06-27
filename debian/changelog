@@ -1,5 +1,51 @@
-template-repository (1.0-1) unstable; urgency=medium
+libnginx-mod-http-srcache-filter (0.33-3) unstable; urgency=medium
 
-  * Initial release
+  * Team upload.
+  * d/control: remove Build-Depends nginx-abi-1.24.0-1
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Jan Mojžíš <jan.mojzis@gmail.com>  Sat, 07 Oct 2023 17:50:21 +0200
+
+libnginx-mod-http-srcache-filter (0.33-2) unstable; urgency=medium
+
+  * Team upload.
+  * NEW ABI: rebuild with nginx-abi-1.24.0-1
+
+ -- Jan Mojžíš <jan.mojzis@gmail.com>  Wed, 28 Jun 2023 00:02:16 +0200
+
+libnginx-mod-http-srcache-filter (0.33-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 0.33
+
+ -- Jan Mojžíš <jan.mojzis@gmail.com>  Fri, 24 Feb 2023 18:22:50 +0100
+
+libnginx-mod-http-srcache-filter (0.32.7.gbe22ac0-2) unstable; urgency=medium
+
+  * Team upload.
+  * d/control: bump Standards-Version: 4.6.2, no changes
+  * d/gbb.conf: switched to debian branch main (debian-branch = main)
+  * d/copyright: bump my copyright year
+  * d/copyright: reformat text to be compatible with 'cme update dpkg-copyright'
+  * d/fix.scanned.copyright: added, fixes upstream author name parsing
+  * NEW ABI: rebuild with nginx-abi-1.22.1-7
+
+ -- Jan Mojžíš <jan.mojzis@gmail.com>  Mon, 13 Feb 2023 12:56:41 +0100
+
+libnginx-mod-http-srcache-filter (0.32.7.gbe22ac0-1) unstable; urgency=medium
+
+  [ Jan Mojžíš ]
+  * d/control: added Multi-Arch: foreign
+  * d/t/generic rework. The test now checks module after
+    installation/reload/restart.
+
+  [ Jérémy Lal ]
+  * Upstream stopped tagging: update watch
+  * New upstream version 0.32.7.gbe22ac0
+
+ -- Jérémy Lal <kapouer@melix.org>  Tue, 27 Dec 2022 21:42:29 +0100
+
+libnginx-mod-http-srcache-filter (0.32-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #1025288)
+
+ -- Jérémy Lal <kapouer@melix.org>  Fri, 02 Dec 2022 00:32:56 +0100
