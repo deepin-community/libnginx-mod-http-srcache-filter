@@ -1,3 +1,12 @@
+libnginx-mod-http-srcache-filter (0.33-4) unstable; urgency=medium
+
+  * Team upload.
+  * d/copyright: update my email to janmojzis@debian.org
+  * d/control: bump Standards-Version: 4.7.2, no changes
+  * d/copyright: bump debian/* copyright year
+
+ -- Jan Mojžíš <janmojzis@debian.org>  Sat, 12 Apr 2025 09:05:51 +0200
+
 libnginx-mod-http-srcache-filter (0.33-3) unstable; urgency=medium
 
   * Team upload.

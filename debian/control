@@ -6,7 +6,7 @@ Uploaders: Jérémy Lal <kapouer@melix.org>,
 Build-Depends: debhelper-compat (= 13),
                dh-sequence-nginx,
                libnginx-mod-http-ndk-dev,
-Standards-Version: 4.6.2
+Standards-Version: 4.7.2
 Homepage: https://github.com/openresty/srcache-nginx-module
 Vcs-Git: https://salsa.debian.org/nginx-team/libnginx-mod-http-srcache-filter.git
 Vcs-Browser: https://salsa.debian.org/nginx-team/libnginx-mod-http-srcache-filter
